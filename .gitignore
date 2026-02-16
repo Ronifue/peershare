@@ -1,0 +1,48 @@
+# 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# 构建输出
+dist/
+public/*.js
+public/*.css
+public/*.map
+
+# 环境变量
+.env
+.env.local
+.env.*.local
+
+# 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+npm-debug.log*
+
+# Bun
+bun.lockb
+
+# 测试/验收产物
+fixtures/
+test-results/
+playwright-report/
+screenshots/
+
+# 内部开发文档（仅保留在 dev 分支）
+AGENTS.md
+ARCHITECTURE.md
+PROGRESS.md
+OPTIMIZATION_GUIDE.md
+RELEASE_CHECKLIST.md
+available_stun_servers.txt
+.misc/
+.sisyphus/

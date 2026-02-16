@@ -1,0 +1,16 @@
+[install]
+# 使用淘宝镜像加速
+registry = "https://registry.npmmirror.com"
+
+[run]
+# 默认运行服务端
+main = "src/server/index.ts"
+
+[build]
+# 前端构建输出目录
+outdir = "public"
+minify = true
+sourcemap = "external"
+
+[test]
+testDir = "./tests/unit"
